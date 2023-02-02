@@ -1,6 +1,4 @@
-Launch one EC2 instance 
-
-### Step 1 - Enable the IIS 
+### Step 1 - Launch one windows EC2 instance and Enable the IIS  
 
 Reference - https://www.youtube.com/watch?v=qdFPS1ywlho&t=707s
 
