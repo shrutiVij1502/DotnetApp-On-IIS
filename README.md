@@ -4,15 +4,22 @@ Reference - https://www.youtube.com/watch?v=qdFPS1ywlho&t=707s
 
 ### Step 2 - Install the IIS hosting Engine and dotnet 
 
-```
-IIS installation File - https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-7.0.2-windows-hosting-bundle-installer
-Dotnet installation fille - https://dotnet.microsoft.com/en-us/download/dotnet/7.0
-```
+IIS installation File - 
+
+https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-7.0.2-windows-hosting-bundle-installer
+
+Dotnet installation fille
+
+https://dotnet.microsoft.com/en-us/download/dotnet/7.0
+
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/67600604/216295527-60125eb9-9551-406c-bb4c-26c81b91400f.png)
 
 
 ### Step 3 - Create site and give the whole publish path of the path as the destination.
+
+Put the path where the .exe and related files are located
+Create a blankApp on Visual studio and build then Start the Application, then publish the site and then copy the publish folder's path and then paste the whole folder into the Window EC2 and mention the same ec2 folder path in the Destination of the IIS site creation
 
 ![MicrosoftTeams-image](https://user-images.githubusercontent.com/67600604/216296196-26a4b997-bd80-48e5-9d66-31b50d1f5208.png)
 
