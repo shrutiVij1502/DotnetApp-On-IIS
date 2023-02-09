@@ -35,6 +35,6 @@ then type "Users" and check names , after that provide the permission to the Use
 
 ![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/67600604/216296399-ce0d358e-352d-4736-917c-5abd74e67f21.png)
 
-### Step 6 - The site that is hosted on the port other than 80 would not be accessible through the outer Internet , for this , we have to manually 
+### Step 6 - The site that is hosted on the port other than 80 would not be accessible through the outer Internet , for this , we have to manually add the inbound rule in the windows system
 
-https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-7.0.2-windows-hosting-bundle-installer
+https://learn.microsoft.com/en-us/archive/blogs/mandi/how-to-create-a-windows-firewall-inbound-rule
